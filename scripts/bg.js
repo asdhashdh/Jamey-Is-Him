@@ -38,6 +38,9 @@ $(document).ready(function () {
         var navcolor="black";
         var glow="0 0 0px 0px rgb(255, 255, 255)";
     }
+    else if (get_cookie("theme")=="jamey"){
+        <img src="/img/IMG_2996.gif" id="yay" class="yay"/>
+    }
     else if (get_cookie("theme")=="thanksgiving"){
         var particlecolor="#870020";
         var backgroundcolor="#856100";
